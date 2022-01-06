@@ -2,60 +2,122 @@ body {
   margin: 0;
 }
 header {
-  background-color: #373738;
   padding: 15px;
+  font-family: Museo Slab;
 }
 header ul {
   float: right;
   color: white;
+  font-family: Museo Sans;
 }
+.h1 {
+
+  font-family: Museo Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 67px;
+  display: flex;
+  align-items: center;
+  }
+  
+  
+  
+  .h3 {
+  
+  font-family: Museo Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+  
+  display: flex;
+  align-items: center;
+  }
+
 header li {
   display: inline-block;
   padding: 0px 5px;
+  color:#373738;
+  font-family: Museo Slab;
 }
 header p {
   display: inline-block;
+  
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 64px;
+
+}
+
+
+
+About Me
 .heroImg {
   background-color: #EBEBEB;
   padding: 100px 15px;
 }
 .content {
-  max-width: 300px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 50px;
-  background-color: #FFFFFF;
+  padding: 72px;
+  background-color: #ffffff;
+  text-align: left;
+  font-family: Museo Slab;
+}
+
+
+footer {
+   
+  /*outline:3px solid red;*/
+  background-color: #373738;
+  padding-left: 25%;
+  padding-right: 25%;
   text-align: center;
 }
-button {
-  padding: 15px;
-  background-color: #373738;
-  color: white;
-  font-size: 15px;
-  border-radius: 4px;
-}
-footer {
-  background-color: #373738;
-  padding: 5px;
-  color: white;
-}
+ 
 footer ul {
-  list-style: none;
-  padding-left: 5px;
-}
-footer li {
+ 
+  /*outline:3px solid red;*/
+  width: 100%;
   display: inline-block;
-  padding: 0px 7px;
+  list-style: none;
+  color: white;
+  vertical-align: top;
+  text-align: left;
+  font-family: Museo Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 24px;
+  text-align: center;
 }
 .heading {
+  font-family: Museo Slab;
   text-align: center;
   padding: 15px 5px;
   font-size: 30px;
 }
+
+.content h1 {
+  color: #DB504A;
+}
+
 /* My UX Skills Section */
 .flexContainer {
   display: flex;
   padding: 60px 30px;
+  font-family: Museo Slab;
 }
 .flexContainer div {
   width: 33%;
@@ -67,6 +129,8 @@ footer li {
   padding: 60px 30px;
   padding-top: 0;
   background-color: #EBEBEB;
+  background-color: #DEB407;
+  font-family: Museo Slab;
 }
 .workGrid {
   display: grid;
@@ -76,16 +140,21 @@ footer li {
   "img1 content1"
   "img2 content2"
   "img3 content3"
+  
   ;
+  
 }
 .workGrid img {
   width: 100%;
   max-width: 250px;
   margin: 0 auto;
   display: block;
+  border: 32px solid #ffffff; 
 }
+
 .img1 {
   grid-area: img1;
+  
 }
 .img2 {
   grid-area: img2;
@@ -105,3 +174,43 @@ footer li {
 .content3 {
   grid-area: content3;
 }
+
+/* button */
+
+
+.button {
+padding: 32px;
+height: 68px;
+font-family: Museo Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+background-color: #DB504A;
+color: #ffffff;
+border:none;
+
+}
+
+/* Button */
+
+.buttonType p {
+font-family: Museo Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
